@@ -1,13 +1,13 @@
 ddrv:
-  token: "MTE5ODMzNTI1NjE2ODc2MzQzMg.GMDZrr.igVYBgOcN_l_BjfuU55k26oHl8--2tGVnhm7lE"
+  token: "Tike"
   token_type: 0 # (0 - Bot, 1 - User, 2 - Nitro User, 3 - Basic Nitro User)
-  channels: "1198336285941698700,1198336477755609269"
+  channels: "Channel"
 
 dataprovider:
   boltdb:
     db_path: ./ddrv.db
   postgres:
-    db_url: "postgres://modifiedmod04:wAPEj1r9aleS@ep-shy-lab-890222.ap-southeast-1.aws.neon.tech/neondb?ssl=true"
+    db_url: "postgres:"
 frontend:
   ftp:
     addr: ":2525"
